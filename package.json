@@ -1,6 +1,6 @@
 {
-  "name": "@superset-ui/plugins-deckgl-monorepo",
-  "version": "0.0.0-master",
+  "name": "@utrace-ltd/plugins-deckgl-monorepo",
+  "version": "v0.4.13-utrace",
   "description": "Superset UI Plugins - deck.gl",
   "private": true,
   "scripts": {
@@ -30,7 +30,7 @@
     "postrelease": "lerna run deploy-demo",
     "storybook": "cd packages/superset-ui-plugins-demo && yarn storybook"
   },
-  "repository": "https://github.com/apache-superset/superset-ui-plugins-deckgl.git",
+  "repository": "https://github.com/utrace-ltd/superset-ui-plugins-deckgl.git",
   "keywords": [
     "apache",
     "superset",
