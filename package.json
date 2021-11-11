@@ -143,16 +143,7 @@
       }
     }
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "lint-staged": {
-    "./packages/*/{src,test,storybook}/**/*.{js,jsx,ts,tsx,json,md}": [
-      "yarn prettier --write",
-      "git add"
-    ]
+  "publishConfig": {
+    "@utrace-ltd:registry": "https://npm.pkg.github.com"
   }
 }
