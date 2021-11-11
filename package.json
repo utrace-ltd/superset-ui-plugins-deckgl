@@ -2,7 +2,6 @@
   "name": "@utrace-ltd/plugins-deckgl-monorepo",
   "version": "v0.4.13-utrace",
   "description": "Superset UI Plugins - deck.gl",
-  "private": true,
   "scripts": {
     "build": "yarn babel && yarn type && yarn build:assets",
     "babel": "yarn babel:cjs && yarn babel:esm",
